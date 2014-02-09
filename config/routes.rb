@@ -1,6 +1,6 @@
 Skrithi1DemoApp::Application.routes.draw do
   resources :microposts
-
+  root :to => 'users#index'
   resources :users
 
   # The priority is based upon order of creation: first created -> highest priority.
